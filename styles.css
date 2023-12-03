@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fffcf5; /* Crema */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    background-color: #ff6961; /* Coral oscuro */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #ffdc34; /* Amarillo brillante */
+}
+
+/* Estilos de la sección de bienvenida */
+.jumbotron {
+    background-color: #ffdc34; /* Amarillo brillante */
+    color: #333;
+    padding: 50px;
+}
+
+/* Estilos de la sección de menú */
+#menu {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de la sección de galería */
+#galeria {
+    background-color: #fffcf5; /* Crema */
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Estilos de la sección de contacto */
+#contacto {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para enlaces */
+a {
+    color: #007bff; /* Azul Bootstrap */
+}
+
+a:hover {
+    color: #0056b3; /* Azul más oscuro al pasar el ratón */
+}
